@@ -1,0 +1,3 @@
+[submodule "RARangedSlider"]
+	path = RARangedSlider
+	url = git://github.com/evadne/RARangedSlider.git

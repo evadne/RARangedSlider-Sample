@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF34BFEF1678698200C35968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF34BFEE1678698200C35968 /* UIKit.framework */; };
+		FF34BFF11678698200C35968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF34BFF01678698200C35968 /* Foundation.framework */; };
+		FF34BFF31678698200C35968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF34BFF21678698200C35968 /* CoreGraphics.framework */; };
+		FF34BFF91678698200C35968 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF34BFF71678698200C35968 /* InfoPlist.strings */; };
+		FF34BFFB1678698200C35968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34BFFA1678698200C35968 /* main.m */; };
+		FF34BFFF1678698200C35968 /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34BFFE1678698200C35968 /* RAAppDelegate.m */; };
+		FF34C0011678698200C35968 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF34C0001678698200C35968 /* Default.png */; };
+		FF34C0031678698200C35968 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF34C0021678698200C35968 /* Default@2x.png */; };
+		FF34C0051678698200C35968 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF34C0041678698200C35968 /* Default-568h@2x.png */; };
+		FF34C03D16786AD300C35968 /* libRARangedSlider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF34C03C16786ABA00C35968 /* libRARangedSlider.a */; };
+		FF34C04316786B3200C35968 /* RAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34C04116786B3200C35968 /* RAMainViewController.m */; };
+		FF34C04416786B3200C35968 /* RAMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF34C04216786B3200C35968 /* RAMainViewController.xib */; };
+		FFB649191679D0F0007FDAF3 /* RARangedSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFB649181679D0F0007FDAF3 /* RARangedSlider.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF34C03B16786ABA00C35968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF34C03416786ABA00C35968 /* RARangedSlider.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF34C02116786A8300C35968;
+			remoteInfo = RARangedSlider;
+		};
+		FF34C03E16786AD800C35968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF34C03416786ABA00C35968 /* RARangedSlider.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FF34C02016786A8300C35968;
+			remoteInfo = RARangedSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF34BFEA1678698200C35968 /* RARangedSlider-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RARangedSlider-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF34BFEE1678698200C35968 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF34BFF01678698200C35968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF34BFF21678698200C35968 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF34BFF61678698200C35968 /* RARangedSlider-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RARangedSlider-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF34BFF81678698200C35968 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF34BFFA1678698200C35968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF34BFFC1678698200C35968 /* RARangedSlider-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RARangedSlider-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF34BFFD1678698200C35968 /* RAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAAppDelegate.h; sourceTree = "<group>"; };
+		FF34BFFE1678698200C35968 /* RAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAAppDelegate.m; sourceTree = "<group>"; };
+		FF34C0001678698200C35968 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF34C0021678698200C35968 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF34C0041678698200C35968 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF34C03416786ABA00C35968 /* RARangedSlider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RARangedSlider.xcodeproj; path = RARangedSlider/RARangedSlider.xcodeproj; sourceTree = "<group>"; };
+		FF34C04016786B3200C35968 /* RAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMainViewController.h; sourceTree = "<group>"; };
+		FF34C04116786B3200C35968 /* RAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMainViewController.m; sourceTree = "<group>"; };
+		FF34C04216786B3200C35968 /* RAMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAMainViewController.xib; sourceTree = "<group>"; };
+		FFB649181679D0F0007FDAF3 /* RARangedSlider.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RARangedSlider.bundle; path = ../RARangedSlider/RARangedSlider/Resources/RARangedSlider.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF34BFE71678698200C35968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF34C03D16786AD300C35968 /* libRARangedSlider.a in Frameworks */,
+				FF34BFEF1678698200C35968 /* UIKit.framework in Frameworks */,
+				FF34BFF11678698200C35968 /* Foundation.framework in Frameworks */,
+				FF34BFF31678698200C35968 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF34BFDF1678698200C35968 = {
+			isa = PBXGroup;
+			children = (
+				FF34BFF41678698200C35968 /* RARangedSlider-Sample */,
+				FF34BFED1678698200C35968 /* Frameworks */,
+				FF34BFEB1678698200C35968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF34BFEB1678698200C35968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF34BFEA1678698200C35968 /* RARangedSlider-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF34BFED1678698200C35968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF34C03416786ABA00C35968 /* RARangedSlider.xcodeproj */,
+				FF34BFEE1678698200C35968 /* UIKit.framework */,
+				FF34BFF01678698200C35968 /* Foundation.framework */,
+				FF34BFF21678698200C35968 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF34BFF41678698200C35968 /* RARangedSlider-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				FF34BFFD1678698200C35968 /* RAAppDelegate.h */,
+				FF34BFFE1678698200C35968 /* RAAppDelegate.m */,
+				FF34C04016786B3200C35968 /* RAMainViewController.h */,
+				FF34C04116786B3200C35968 /* RAMainViewController.m */,
+				FF34C04216786B3200C35968 /* RAMainViewController.xib */,
+				FFB649181679D0F0007FDAF3 /* RARangedSlider.bundle */,
+				FF34BFF51678698200C35968 /* Supporting Files */,
+			);
+			path = "RARangedSlider-Sample";
+			sourceTree = "<group>";
+		};
+		FF34BFF51678698200C35968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF34BFF61678698200C35968 /* RARangedSlider-Sample-Info.plist */,
+				FF34BFF71678698200C35968 /* InfoPlist.strings */,
+				FF34BFFA1678698200C35968 /* main.m */,
+				FF34BFFC1678698200C35968 /* RARangedSlider-Sample-Prefix.pch */,
+				FF34C0001678698200C35968 /* Default.png */,
+				FF34C0021678698200C35968 /* Default@2x.png */,
+				FF34C0041678698200C35968 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF34C03516786ABA00C35968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF34C03C16786ABA00C35968 /* libRARangedSlider.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF34BFE91678698200C35968 /* RARangedSlider-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF34C0081678698200C35968 /* Build configuration list for PBXNativeTarget "RARangedSlider-Sample" */;
+			buildPhases = (
+				FF34BFE61678698200C35968 /* Sources */,
+				FF34BFE71678698200C35968 /* Frameworks */,
+				FF34BFE81678698200C35968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF34C03F16786AD800C35968 /* PBXTargetDependency */,
+			);
+			name = "RARangedSlider-Sample";
+			productName = "RARangedSlider-Sample";
+			productReference = FF34BFEA1678698200C35968 /* RARangedSlider-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF34BFE11678698200C35968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Radius;
+			};
+			buildConfigurationList = FF34BFE41678698200C35968 /* Build configuration list for PBXProject "RARangedSlider-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF34BFDF1678698200C35968;
+			productRefGroup = FF34BFEB1678698200C35968 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF34C03516786ABA00C35968 /* Products */;
+					ProjectRef = FF34C03416786ABA00C35968 /* RARangedSlider.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF34BFE91678698200C35968 /* RARangedSlider-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF34C03C16786ABA00C35968 /* libRARangedSlider.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRARangedSlider.a;
+			remoteRef = FF34C03B16786ABA00C35968 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF34BFE81678698200C35968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF34BFF91678698200C35968 /* InfoPlist.strings in Resources */,
+				FF34C0011678698200C35968 /* Default.png in Resources */,
+				FF34C0031678698200C35968 /* Default@2x.png in Resources */,
+				FF34C0051678698200C35968 /* Default-568h@2x.png in Resources */,
+				FF34C04416786B3200C35968 /* RAMainViewController.xib in Resources */,
+				FFB649191679D0F0007FDAF3 /* RARangedSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF34BFE61678698200C35968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF34BFFB1678698200C35968 /* main.m in Sources */,
+				FF34BFFF1678698200C35968 /* RAAppDelegate.m in Sources */,
+				FF34C04316786B3200C35968 /* RAMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF34C03F16786AD800C35968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RARangedSlider;
+			targetProxy = FF34C03E16786AD800C35968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF34BFF71678698200C35968 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF34BFF81678698200C35968 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF34C0061678698200C35968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RARangedSlider/RARangedSlider";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF34C0071678698200C35968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RARangedSlider/RARangedSlider";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF34C0091678698200C35968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RARangedSlider-Sample/RARangedSlider-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RARangedSlider-Sample/RARangedSlider-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF34C00A1678698200C35968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RARangedSlider-Sample/RARangedSlider-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RARangedSlider-Sample/RARangedSlider-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF34BFE41678698200C35968 /* Build configuration list for PBXProject "RARangedSlider-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF34C0061678698200C35968 /* Debug */,
+				FF34C0071678698200C35968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF34C0081678698200C35968 /* Build configuration list for PBXNativeTarget "RARangedSlider-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF34C0091678698200C35968 /* Debug */,
+				FF34C00A1678698200C35968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF34BFE11678698200C35968 /* Project object */;
+}
